@@ -11,9 +11,13 @@
           </div>
           <div class="flex">
             <button
+              @click="()=>emit('create-account')"
               class="px-6 py-2 font-bold text-white"
             >Sign Up</button>
-            <button class="btn-primary">Sign In</button>
+            <button
+              @click="()=>emit('login')"
+              class="btn-primary"
+            >Sign In</button>
           </div>
         </div>
         <div class="flex flex-col mt-28">
@@ -34,7 +38,10 @@
 
 <script>
 export default {
-  name: 'LandingHeader'
+  name: 'LandingHeader',
+  setup (_, { emit }) {
+    return { emit }
+  }
 }
 </script>
 
