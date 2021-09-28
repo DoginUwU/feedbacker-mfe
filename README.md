@@ -1,4 +1,7 @@
-# feedbacker-front
+# Feedbacker Front-End
+
+![image](https://user-images.githubusercontent.com/59850361/135139060-c18c8b24-fbe5-416c-b683-677465556eeb.png)
+Simple feedback system for your website, made for the VueJS Brazil bootcamp
 
 ## Project setup
 ```
