@@ -30,7 +30,10 @@
             Receive ideas, complaints and feedback with a <br class="hidden lg:inline-block">
             simple widget on the page.
           </p>
-          <button class="btn-primary mt-10">Create a free account</button>
+          <button
+            class="btn-primary mt-10"
+            @click="()=>emit('create-account')"
+          >Create a free account</button>
         </div>
       </div>
     </header>
